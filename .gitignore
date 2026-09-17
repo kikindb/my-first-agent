@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pdm-build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local project runtime artifacts
+.gradio/
+*.log
+*.sqlite3
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / test reports
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
